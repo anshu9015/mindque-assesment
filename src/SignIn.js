@@ -13,6 +13,7 @@ const SignIn = ({ navigation }) => {
       .then((userCredential) => {
         // User signed in successfully
         const user = userCredential.user;
+        //alert added
         Alert.alert('Success', 'Signed in successfully.');
         navigation.navigate('HomeScreen');
         // You can navigate to the HomeScreen or any other screen here
